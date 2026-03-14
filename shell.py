@@ -59,7 +59,7 @@ def executar_comando(partes):
         _, status = os.wait()
 
         # os.wait() retorna o status em formato "raw"; extraímos o exit code
-        codigo_saida = os.waitstatus_to_exitcode(status)
+        codigo_saida = os.WEXITSTATUS(status)
 
         if codigo_saida != 0:
             print(f"shell: o comando terminou com código de saída {codigo_saida}")
