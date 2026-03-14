@@ -3,9 +3,8 @@
 # CIC304 – Sistemas Operacionais
 # Projeto: Interpretador de comandos simples (shell) em Python
 #
-# Integrantes:
-#   - Nome: Pedro Canova  | RA: (preencher)
-#   - Nome: (preencher)   | RA: (preencher)
+# Integrante:
+#   - Nome: Pedro do Couto Rosa Canova | RA: 24.01570-9
 # =============================================================================
 
 import os
